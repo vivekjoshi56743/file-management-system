@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
       if($pass != $cpass){
          $error[] = 'password not matched!';
       }else{
-         $insert = "INSERT INTO user_form(name, email, password, user_type,service_number) VALUES('$name','$email','$pass','user','$service_number')";
+         $insert = "INSERT INTO user_form(name, email, password, service_number) VALUES('$name','$email','$pass','$service_number')";
          mysqli_query($conn, $insert);
          header('location:login_form.php');
       }
