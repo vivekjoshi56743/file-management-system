@@ -1,0 +1,67 @@
+#location{
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: rgb(229 122 142);
+    text-transform: uppercase;
+    color: crimson;
+    border-radius: 5px;
+    border-left: solid #ff0a0a;
+    padding: 5px;
+}
+#form1, #form2{
+    background-color:rgb(222, 117, 117);
+    border-width: 2px;
+    border-radius: 8px;
+    border-left: solid #0d0d0d;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 5px;
+ }
+
+ .copy-icon{
+    border-radius: 9px;
+    height: 15px;
+    font-size: 9px;
+    padding-top: 0px;
+    }
+    .copy-icon:hover{
+      background-color: rgb(52, 181, 52);
+    }
+    .copy-icon:active {
+       background-color:crimson;
+    }
+
+    .upperfolder,.lowerfile{
+        display: inline-block;
+        margin-right: 35px;
+        margin-left: 35px;
+     }
+     
+.directory{
+    display: inline-block;
+    color:#8b008b;
+    border-radius: 8px;
+    border:solid rgb(64, 42, 189);
+    border-width: 2px;
+    background-color: rgb(223, 206, 48);
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 30px;
+ }
+ 
+ .directory:hover ,.file:hover{
+    background-color: crimson;
+ }
+ 
+ .file{
+    display :inline-block;
+    color:#8b008b;
+    border-radius: 8px;
+    border:solid rgb(64, 42, 189);
+    border-width: 2px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    padding:5px;
+    padding-left: 30px;
+ }
